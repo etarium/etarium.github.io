@@ -48,7 +48,7 @@ img {
 .lowerembed {
     position: absolute;
     margin: auto;
-    top: 62%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
