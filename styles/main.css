@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'TwistingHaunt';
+    src: url('./Px437_IBM_VGA9.ttf');
+}
+
+ html {
+    background: #1a1701;
+    font-family: 'TwistingHaunt';
+}
+
+body {
+    color: #6b5d03;
+    font-family: 'TwistingHaunt';
+    overflow-x: auto;
+}
+
+header {
+    background-color: #1a1701;
+    border: solid;
+    border-color: #6b5d03;
+ }
+ 
+ header .text {
+     padding: 15px 0 50px 25px;
+ }
+ 
+ header h1 {
+     font-size: 4em;
+     font-weight: bold;
+     color: #6b5d03;
+ }
+ 
+ header h2 {
+     font-size: 2em;
+     color: #6b5d03;
+     padding-left: 4.5em;
+ }
+ 
+ header img {
+     position: absolute;
+     right: 200px;
+     top: 20px;
+ }
+ 
+ header nav {
+     /* NOTE: this removes a space that CSS seems to like to include. EC */
+     font-size: 0;
+     width: 100%;
+ }
+ 
+ nav a {
+     color: #f5edff;
+     position: relative;
+     font-size: 16px;
+     
+     color: #6b5d03;
+     text-decoration: none;
+     width: 20%; /* NOTE: This is only gonna work for 5 elements! EC*/
+     /* assists with making mobile friendly */
+     line-height: 40px;
+     text-align: center;
+     font-size: 1.4pm;
+     display: inline-block; /*this is why that above font thing exists. inline-block is weird. EC */
+ }
+ nav a.selected, nav a:hover {
+     background-color: #6b5d03;
+     color: #1a1701;
+     font-weight: bold;
+ }
+ 
+ nav {
+     background-color: #1a1701;
+     border-top: solid;
+     border-color: #6b5d03;
+ }
+ 
+ /*dat media checker tho */
+ @media (max-width: 1068px) {
+     nav a {
+         width: 100%;
+     }
+     
+     header h1 {
+         font-size: 6vw;
+     }
+     
+     header h2 {
+         padding-left: 5vw;
+         font-size: 3vw;
+     }
+     header img {
+         width: 0%;
+     }
+ }
+     @media (min-width: 1068px) {
+     .container {
+         width: 98%;
+         max-width: 1300px;
+         margin: 0 auto;
+     }
+ }
+ div.author{
+     font-weight: bold;
+     font-size: 1.6em;
+ }
+ div.date{
+     margin-bottom: 5em;
+     color: #6b5d03;
+ }
+ 
+ div.text-container {
+     background-color: #1a1701;
+     padding: 50px;
+     padding-bottom: 15em;
+     line-height: 1.65em;
+     border: solid;
+     border-top: none;
+     border-color: #6b5d03;
+ }
+ div.text-container a {
+     color: #6b5d03;
+ }
+ 
+ div.text-container a:hover {
+     color: #ceb306;
+ }
+ 
+ p {
+     padding-bottom: 1em;
+ }
+ footer {
+    background-color: #1a1701;
+     color: #6b5d03;
+     border: solid;
+     border-top: none;
+     border-color: #6b5d03;
+ }
+ footer a {
+     color: #6b5d03;
+ }
+ footer a:hover {
+     color: #ceb306;
+ }
