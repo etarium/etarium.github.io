@@ -4,20 +4,20 @@
 }
 
  html {
-    background: #1a1701;
+    background: #ffffff;
     font-family: 'TwistingHaunt';
 }
 
 body {
-    color: #6b5d03;
+    color: #000000;
     font-family: 'TwistingHaunt';
     overflow-x: auto;
 }
 
 header {
-    background-color: #1a1701;
+    background-color: #ffffff;
     border: solid;
-    border-color: #6b5d03;
+    border-color: #000000;
  }
  
  header .text {
@@ -27,12 +27,12 @@ header {
  header h1 {
      font-size: 4em;
      font-weight: bold;
-     color: #6b5d03;
+     color: #000000;
  }
  
  header h2 {
      font-size: 2em;
-     color: #6b5d03;
+     color: #000000;
      padding-left: 4.5em;
  }
  
@@ -53,7 +53,7 @@ header {
      position: relative;
      font-size: 16px;
      
-     color: #6b5d03;
+     color: #000000;
      text-decoration: none;
      width: 20%; /* NOTE: This is only gonna work for 5 elements! EC*/
      /* assists with making mobile friendly */
@@ -63,15 +63,15 @@ header {
      display: inline-block; /*this is why that above font thing exists. inline-block is weird. EC */
  }
  nav a.selected, nav a:hover {
-     background-color: #6b5d03;
-     color: #1a1701;
+     background-color: #E7E7E7;
+     color: #000000;
      font-weight: bold;
  }
  
  nav {
-     background-color: #1a1701;
+     background-color: #ffffff;
      border-top: solid;
-     border-color: #6b5d03;
+     border-color: #000000;
  }
  
  /*dat media checker tho */
@@ -105,39 +105,39 @@ header {
  }
  div.date{
      margin-bottom: 5em;
-     color: #6b5d03;
+     color: #000000;
  }
  
  div.text-container {
-     background-color: #1a1701;
+     background-color: #ffffff;
      padding: 50px;
      padding-bottom: 15em;
      line-height: 1.65em;
      border: solid;
      border-top: none;
-     border-color: #6b5d03;
+     border-color: #000000;
  }
  div.text-container a {
-     color: #6b5d03;
+     color: #000000;
  }
  
  div.text-container a:hover {
-     color: #ceb306;
+     color: #000000;
  }
  
  p {
      padding-bottom: 1em;
  }
  footer {
-    background-color: #1a1701;
-     color: #6b5d03;
+    background-color: #ffffff;
+     color: #000000;
      border: solid;
      border-top: none;
-     border-color: #6b5d03;
+     border-color: #000000;
  }
  footer a {
-     color: #6b5d03;
+     color: #000000;
  }
  footer a:hover {
-     color: #ceb306;
+     color: #000000;
  }
